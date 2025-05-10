@@ -1,0 +1,15 @@
+automations:
+  - name: Install Dependencies
+    actions:
+      - name: Install Node.js dependencies
+        command: npm install
+
+  - name: Lint Code
+    actions:
+      - name: Run TypeScript linter
+        command: npm run lint
+
+  - name: Type Check
+    actions:
+      - name: Run TypeScript type-checking
+        command: npm run type-check
